@@ -1,0 +1,12 @@
+[project]
+name = "blockchain-pharmaceutical-supply-chain"
+description = "Blockchain project: blockchain-pharmaceutical-supply-chain"
+authors = ["Edikanubak42968 <>"]
+telemetry = false
+cache_dir = ".clarinet"
+
+[contracts.main-contract]
+path = "contracts/main-contract.clar"
+clarinet_version = "1.0.0"
+
+[requirements]
