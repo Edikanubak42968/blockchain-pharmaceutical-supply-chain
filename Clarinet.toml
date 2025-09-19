@@ -1,12 +1,16 @@
 [project]
 name = "blockchain-pharmaceutical-supply-chain"
 description = "Blockchain project: blockchain-pharmaceutical-supply-chain"
-authors = ["Edikanubak42968 <>"]
+authors = ["Automated Builder <automation@blockchain.dev>"]
 telemetry = false
 cache_dir = ".clarinet"
+requirements = []
 
-[contracts.main-contract]
-path = "contracts/main-contract.clar"
-clarinet_version = "1.0.0"
+[contracts.regulatory-compliance-monitor]
+path = "contracts/regulatory-compliance-monitor.clar"
+depends_on = []
 
-[requirements]
+[contracts.drug-authenticity-tracker]
+path = "contracts/drug-authenticity-tracker.clar"
+depends_on = []
+
